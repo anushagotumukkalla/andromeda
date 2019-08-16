@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc",
+    "start": "ts-node-dev --respawn --transpileOnly ./bin/www",
+    "build": "tsc && node ./build/bin/www.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/http-errors": "^1.6.1",
+    "@types/morgan": "^1.7.36"
+  }
+}
